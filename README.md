@@ -4,13 +4,17 @@ Deep learning has been widely applied for Raman spectroscopy. This repository co
 
 ## Requirements
 
-The code has been tested running under Python 3.9.12, with the following packages and their dependencies installed:
+The code has been tested running under Python 3.8, with the following packages and their dependencies installed:
 
 ```
-numpy==1.16.5
-pandas==1.4.2
-pytorch==1.7.1
-sklearn==0.21.3
+conda create RSDL python=3.8
+pip install numpy==1.19.2
+pip install pandas==1.4.2
+pip install torch==1.7.1
+conda install -c conda-forge cudatoolkit=10.2  
+conda install -c conda-forge cudnn=7.6.5
+pip install Cython==0.29.32
+pip install scikit-learn
 ```
 
 ## Usage
