@@ -10,11 +10,10 @@ The code has been tested running under Python 3.8, with the following packages a
 conda create RSDL python=3.8
 pip install numpy==1.22.4
 pip install pandas==1.4.2
-pip install torch==1.7.1
-conda install -c conda-forge cudatoolkit=10.2  
+conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 conda install -c conda-forge cudnn=7.6.5
 pip install Cython==0.29.32
-pip install scikit-learn
+pip install scikit-learn==1.5.1
 ```
 
 ## Usage
