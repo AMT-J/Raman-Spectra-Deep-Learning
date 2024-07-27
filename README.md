@@ -8,7 +8,7 @@ The code has been tested running under Python 3.8, with the following packages a
 
 ```
 conda create RSDL python=3.8
-pip install numpy==1.19.2
+pip install numpy==1.22.4
 pip install pandas==1.4.2
 pip install torch==1.7.1
 conda install -c conda-forge cudatoolkit=10.2  
