@@ -24,7 +24,7 @@ python main.py --c 2 --model LSTM
 
 Parameter `model` can be one of these four models: CNN, LSTM, GCN, CLR.
 
-GNN is implemented as graph convolutional networks (CCN) (Kipf et al., 2017) with spectral angle for graph construction. Contrastive learning model is implemented as SimCLR with maximum mean discrepancy (Chen et al., 2020; Zhang et al., 2022).
+GNN is implemented as graph convolutional networks (GCN) (Kipf et al., 2017) with spectral angle for graph construction. Contrastive learning model is implemented as SimCLR with maximum mean discrepancy (Chen et al., 2020; Zhang et al., 2022).
 
 ## Datasets
 
